@@ -1,0 +1,23 @@
+{
+  "name": "@kuy-kreasi-digital/translations",
+  "version": "1.0.0",
+  "description": "Shared translations for next-intl",
+  "type": "module",
+  "files": [
+    "messages/**/*.json",
+    "clients/**/*.json",
+    "types/**/*.d.ts"
+  ],
+  "exports": {
+    "./messages/*": "./messages/*",
+    "./clients/*": "./clients/*",
+    "./types/*": "./types/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuy-kreasi-digital/translations.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
